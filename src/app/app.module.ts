@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RandomNumber } from './random/random.component';
+import { RandomComponent } from './random/random.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RandomNumber,
+    RandomComponent,
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
